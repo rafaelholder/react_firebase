@@ -1,0 +1,86 @@
+
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-in label{
+    margin-right: 2px;
+    padding: 6px;
+    border: none;
+    border-radius: 8px;
+    
+}
+.sign-in input{
+    margin-right: 8px;
+    padding: 6px;
+    border: none;
+    border-radius: 2px;
+}
+
+.cadastro button{
+    margin-top: 12px;
+    padding: 6px;
+    width: 30%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cadastro button:hover{
+    background-color: navy;
+    color: white;
+}
+
+.login button {
+    margin-top: 12px;
+    padding: 6px;
+    width: 30%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.login button:hover{
+    background-color: green;
+    color: white;
+}
+
+.logged{
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    background-color: azure;
+    border-radius: 2px;
+}
+
+.logged strong{
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.logged span{
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.sign-out button{
+    margin-top: 12px;
+    padding: 6px;
+    width: 30%;
+    text-transform: uppercase;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    background-color: rgb(214, 0, 0);
+}
+.sign-out button:hover{
+    background-color: brown;
+    color: white;
+}

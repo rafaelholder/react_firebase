@@ -3,6 +3,9 @@ import {initializeApp} from 'firebase/app'
 import { getAnalytics } from "firebase/analytics";
 import {getFirestore, } from 'firebase/firestore'
 
+//Firebase auth
+import { getAuth } from 'firebase/auth';
+
 const firebaseConfig = {
     apiKey: "AIzaSyAssO7uEfJFnB-MoKi18G9_82f4pxlJj2Y",
     authDomain: "cursoreactfirebase-ef591.firebaseapp.com",
@@ -15,8 +18,12 @@ const firebaseConfig = {
 
   // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
+  //Firestore config
 const fireStoreDB = getFirestore(firebaseApp)
+  //analytics
 const analytics = getAnalytics(firebaseApp);
 
-export {fireStoreDB};
+const firebaseAuth = getAuth(firebaseApp);
+
+export {fireStoreDB, firebaseAuth};
 

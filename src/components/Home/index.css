@@ -1,0 +1,137 @@
+.container {
+    background-color: bisque;
+    border-radius: 4px;
+    margin: 12px;
+    padding: 16px;
+    width: 90%;
+  }
+  
+  /* title, autor, and button */ 
+  .autor-title{
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 24px;
+  }
+  
+  .autor-title textarea{
+    padding: 4px;
+    margin-top: 8px;
+    width: 400px;
+    height: 50px;
+    border-radius: 2px;
+    border: 2px solid gray;
+    text-overflow: clip;
+  }
+  .autor-title input{
+    padding: 4px;
+    margin-top: 8px;
+    width: 20vh;
+    border-radius: 2px;
+    border: 2px solid gray;
+  }
+  
+  .autor-title button{
+    margin-top: 12px;
+    padding: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: bisque;
+    background-color: gray;
+    border-radius: 6px;
+    border: none;
+    transition: 1s;
+  }
+  .autor-title button:hover{
+    opacity: 0.6;
+  }
+  
+  /* Edit post and id input*/
+  .edit-post {
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-post input{
+    padding: 4px;
+    margin-top: 8px;
+    width: 30vh;
+    border-radius: 2px;
+    border: 2px solid gray;
+    text-overflow: clip;
+  
+  }
+  .edit-post button{
+    margin-top: 12px;
+    padding: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    background-color: cadetblue;
+    border-radius: 6px;
+    border: none;
+    transition: 1s;
+  }
+  .edit-post button:hover{
+    background-color: lightblue;
+  }
+  /* List posts and details posts*/
+  #id-post {
+    margin-bottom: 8px ;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  .list-posts{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 29;
+    align-items: center;
+    margin-top: 12px;
+    background-color: azure;
+    border-radius: 8px;
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  .detail-post{
+    width: 700px;
+    text-overflow: clip;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    padding: 12px;
+    border: 1px solid;
+    border-radius: 2px;
+    list-style-type: none;
+  }
+  
+  .detail-post button {
+    margin-top: 12px;
+    padding: 6px;
+    width: 40%; 
+    background-color: brown;
+    color: black;
+    text-transform: uppercase;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+  }
+  .detail-post button:hover{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+  }
